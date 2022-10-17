@@ -16,6 +16,9 @@
 		34FEEC1328FD0BA40019194C /* Second_Car_PlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEEC1228FD0BA40019194C /* Second_Car_PlayTests.swift */; };
 		34FEEC1D28FD0BA40019194C /* Second_Car_PlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEEC1C28FD0BA40019194C /* Second_Car_PlayUITests.swift */; };
 		34FEEC1F28FD0BA40019194C /* Second_Car_PlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEEC1E28FD0BA40019194C /* Second_Car_PlayUITestsLaunchTests.swift */; };
+		34FEEC2E28FD0D3B0019194C /* ViewXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEEC2C28FD0D3B0019194C /* ViewXibViewController.swift */; };
+		34FEEC2F28FD0D3C0019194C /* ViewXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FEEC2D28FD0D3B0019194C /* ViewXibViewController.xib */; };
+		34FEEC3128FD0DCA0019194C /* NoXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEEC3028FD0DCA0019194C /* NoXibViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		34FEEC1C28FD0BA40019194C /* Second_Car_PlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Car_PlayUITests.swift; sourceTree = "<group>"; };
 		34FEEC1E28FD0BA40019194C /* Second_Car_PlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Car_PlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		34FEEC2B28FD0C070019194C /* Second Car Play.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Second Car Play.entitlements"; sourceTree = "<group>"; };
+		34FEEC2C28FD0D3B0019194C /* ViewXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewXibViewController.swift; sourceTree = "<group>"; };
+		34FEEC2D28FD0D3B0019194C /* ViewXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewXibViewController.xib; sourceTree = "<group>"; };
+		34FEEC3028FD0DCA0019194C /* NoXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoXibViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 				34FEEC0428FD0BA30019194C /* Assets.xcassets */,
 				34FEEC0628FD0BA30019194C /* LaunchScreen.storyboard */,
 				34FEEC0928FD0BA30019194C /* Info.plist */,
+				34FEEC2C28FD0D3B0019194C /* ViewXibViewController.swift */,
+				34FEEC2D28FD0D3B0019194C /* ViewXibViewController.xib */,
+				34FEEC3028FD0DCA0019194C /* NoXibViewController.swift */,
 			);
 			path = "Second Car Play";
 			sourceTree = "<group>";
@@ -236,6 +245,7 @@
 				34FEEC0828FD0BA30019194C /* LaunchScreen.storyboard in Resources */,
 				34FEEC0528FD0BA30019194C /* Assets.xcassets in Resources */,
 				34FEEC0328FD0BA30019194C /* Main.storyboard in Resources */,
+				34FEEC2F28FD0D3C0019194C /* ViewXibViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +273,8 @@
 				34FEEC0028FD0BA30019194C /* ViewController.swift in Sources */,
 				34FEEBFC28FD0BA30019194C /* AppDelegate.swift in Sources */,
 				34FEEBFE28FD0BA30019194C /* SceneDelegate.swift in Sources */,
+				34FEEC2E28FD0D3B0019194C /* ViewXibViewController.swift in Sources */,
+				34FEEC3128FD0DCA0019194C /* NoXibViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +452,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Second Car Play/Second Car Play.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7LG66FXVT;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -455,8 +468,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickagas.Second-Car-Play";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickagas.Car-Play";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com.nickagas.Car-Play second";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,7 +483,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Second Car Play/Second Car Play.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7LG66FXVT;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -484,8 +499,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickagas.Second-Car-Play";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickagas.Car-Play";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com.nickagas.Car-Play second";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
