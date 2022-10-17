@@ -49,6 +49,7 @@
 		34FEEC1828FD0BA40019194C /* Second Car PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second Car PlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FEEC1C28FD0BA40019194C /* Second_Car_PlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Car_PlayUITests.swift; sourceTree = "<group>"; };
 		34FEEC1E28FD0BA40019194C /* Second_Car_PlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Car_PlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34FEEC2B28FD0C070019194C /* Second Car Play.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Second Car Play.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		34FEEBFA28FD0BA30019194C /* Second Car Play */ = {
 			isa = PBXGroup;
 			children = (
+				34FEEC2B28FD0C070019194C /* Second Car Play.entitlements */,
 				34FEEBFB28FD0BA30019194C /* AppDelegate.swift */,
 				34FEEBFD28FD0BA30019194C /* SceneDelegate.swift */,
 				34FEEBFF28FD0BA30019194C /* ViewController.swift */,
@@ -437,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Second Car Play/Second Car Play.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7LG66FXVT;
@@ -465,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Second Car Play/Second Car Play.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7LG66FXVT;
